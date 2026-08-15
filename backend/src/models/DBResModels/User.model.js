@@ -19,10 +19,7 @@ const userSchema = new mongoose.Schema(
       type: String,
       default: null,
     },
-    phoneNumber:{
-        type:String,
-        default:null
-    },
+  
     authProvider: {
       type: String,
       enum: ["LOCAL", "GOOGLE"],

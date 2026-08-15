@@ -8,5 +8,6 @@ export const config={
     auth_email:process.env.AUTH_EMAIL,
     auth_pass:process.env.AUTH_PASSWORD,
     redis_host:process.env.REDIS_HOST,
-    redis_port:process.env.REDIS_PORT
+    redis_port:process.env.REDIS_PORT,
+    frontend_url:process.env.Frontend_url
 }
